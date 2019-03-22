@@ -66,4 +66,4 @@ Transaction{timestamp=1520473050000, origin=2, target='3', amount=924}
 Transaction{timestamp=1520473177000, origin=2, target='3', amount=1566}
 Transaction{timestamp=1520473412000, origin=2, target='3', amount=5272}}
 ```
-[Back to Labs List >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/)
+[Back to Labs List >>](https://github.com/tbaums/dcos-NUAN-labs/tree/master/labs)

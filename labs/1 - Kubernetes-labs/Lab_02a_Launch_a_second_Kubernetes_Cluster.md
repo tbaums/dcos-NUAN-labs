@@ -55,4 +55,4 @@ watch dcos kubernetes manager plan status deploy --name=kubernetes-cluster2
 
 When all the Kubernetes cluster elements report a status of `COMPLETE`, your new cluster is ready.
 
-[Next Lab >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/1%20-%20Kubernetes-labs/Lab_03_Scaling_Kubernetes_Clusters.md)
+[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/1%20-%20Kubernetes-labs/Lab_03_Scaling_Kubernetes_Clusters.md)

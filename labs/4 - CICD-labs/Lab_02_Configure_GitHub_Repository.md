@@ -24,4 +24,4 @@ Modify the Docker image to `<your Docker hub username>/cicd-demo:latest`. This i
 
 ![github-edit2](screenshots/jenkins-app.png)
 
-[Next Lab >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/4%20-%20CICD-labs/Lab_03_Configure_Jenkins.md)
+[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/4%20-%20CICD-labs/Lab_03_Configure_Jenkins.md)

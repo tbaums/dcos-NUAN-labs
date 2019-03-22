@@ -53,4 +53,4 @@ dcos package install --yes flink
 
 The Services tab in your DC/OS UI should show the full suite of services you have successfully deployed.
 
-[Next Lab >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/2%20-%20Data-Services-labs/Lab_03_Install_Microservices.md)
+[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/2%20-%20Data-Services-labs/Lab_03_Install_Microservices.md)

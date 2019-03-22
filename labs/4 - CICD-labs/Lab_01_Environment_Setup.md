@@ -54,5 +54,5 @@ Once on the `cd-demo` repository homepage, select *Fork* in the upper righthand 
 
 You should now see the forked repository in your GitHub account.
 
-[Next Lab >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/4%20-%20CICD-labs/Lab_02_Configure_GitHub_Repository.md)
+[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/4%20-%20CICD-labs/Lab_02_Configure_GitHub_Repository.md)
 

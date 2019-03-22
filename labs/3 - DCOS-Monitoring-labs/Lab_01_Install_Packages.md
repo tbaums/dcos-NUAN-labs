@@ -72,4 +72,4 @@ As the DC/OS Monitoring service takes advantage of the DC/OS Admin Router, we ca
 
 `https://<CLUSTER_URL>/service/dcos-monitoring/prometheus`
 
-[Back to Labs List >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/)
+[Back to Labs List >>](https://github.com/tbaums/dcos-NUAN-labs/tree/master/labs)

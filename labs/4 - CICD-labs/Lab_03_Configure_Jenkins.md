@@ -101,4 +101,4 @@ When complete, click *Save*.
 
 Congratulations! Your Jenkins build pipeline is now configured and ready to use!
 
-[Next Lab >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/4%20-%20CICD-labs/Lab_04_Run_Jenkins_Build_Pipeline.md)
+[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/4%20-%20CICD-labs/Lab_04_Run_Jenkins_Build_Pipeline.md)

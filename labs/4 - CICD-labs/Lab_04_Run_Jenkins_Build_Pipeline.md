@@ -20,4 +20,4 @@ You can also observe DC/OS spinning up a new Jenkins executor to execute the pul
 
  Visit the services tab in your DC/OS UI and note the launched containerized application!
 
-[Back to Labs List >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/)
+[Back to Labs List >>](https://github.com/tbaums/dcos-NUAN-labs/tree/master/labs)

@@ -95,4 +95,4 @@ Congratulations! You should now see the Kubernetes dashboard.
 ![k8s-dashboard](https://github.com/tbaums/dcos-mandt-labs/blob/master/screenshots/k8s-dashboard.png)
 
 
-[Next Lab >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/1%20-%20Kubernetes-labs/Lab_02a_Launch_a_second_Kubernetes_Cluster.md)
+[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/1%20-%20Kubernetes-labs/Lab_02a_Launch_a_second_Kubernetes_Cluster.md)

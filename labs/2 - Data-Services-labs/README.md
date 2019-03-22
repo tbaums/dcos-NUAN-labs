@@ -17,4 +17,4 @@ Actor: In order to view the results we use again a small Golang viewer which sim
 
 ![](https://github.com/dcos/demos/blob/master/flink-k8s/1.11/img/kafka-flink-arch.png)
 
-[Next Lab >>](https://github.com/tbaums/dcos-mandt-labs/blob/master/labs/2%20-%20Data-Services-labs/Lab_02_Install_Kafka_and_Flink.md)
+[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/2%20-%20Data-Services-labs/Lab_02_Install_Kafka_and_Flink.md)
