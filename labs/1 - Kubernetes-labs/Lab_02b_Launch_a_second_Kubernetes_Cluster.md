@@ -1,4 +1,4 @@
-## Lab 2a - Launch a second Kubernetes cluster
+## Lab 2b - Launch a second Kubernetes cluster
 
 In this lab, you will launch a second Kubernetes cluster on the same DC/OS cluster, demonstrating Mesosphere Kubernetes Engine's ability to run high-density, multi-kubernetes environments.
 
@@ -44,7 +44,7 @@ EOF
 Then run the DC/OS Kubernetes CLI command to launch the Kubernetes cluster.
 
 ```
-dcos kubernetes cluster create --options=cluster2-options.json --yes
+dcos kubernetes cluster create --package-version=2.2.0-1.13.3 --options=cluster2-options.json --yes
 ```
 
 Your new Kubernetes cluster will take a few minutes to spin up. You can see the installation runbook automation and monitor the status of installation of each component with the command below:

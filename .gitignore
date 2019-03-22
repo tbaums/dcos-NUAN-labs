@@ -6,3 +6,6 @@ clusters/setup/plan.out
 clusters/setup/private-key.pem
 clusters/setup/public-key.pem
 clusters/setup/terraform.tfstate
+clusters/setup/complete-demo.yaml
+clusters/setup/cluster2-options.json
+clusters/setup/config

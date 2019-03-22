@@ -33,7 +33,7 @@ module "dcos" {
 
   tags = {workshop = "Nuance"} 
 
-  public_agents_additional_ports = ["6090", "6443", "7443", "3000", "9090", "9093", "9091", "30443"]
+  public_agents_additional_ports = ["6090", "6443", "7443", "3000", "9090", "9093", "9091", "30001", "30443"]
 
   dcos_superuser_username = "admin"
 
