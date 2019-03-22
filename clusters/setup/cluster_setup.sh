@@ -4,7 +4,7 @@ export LANG=en_US.utf-8
 export LANGUAGE=en_US.utf-8 LC_ALL=en_US.utf-8
 
 dcos cluster remove --all
-dcos cluster setup https://$(echo $1 | sed -r "s|https?://||") --username=admin --password=$2 --no-check --insecure
+dcos cluster setup https://$(echo $1) --username=bootstrapuser --password=$2 --no-check --insecure
 dcos config set core.ssl_verify false
 dcos package install dcos-enterprise-cli --yes
 

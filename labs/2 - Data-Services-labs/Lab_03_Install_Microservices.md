@@ -7,7 +7,7 @@
 Now, we can deploy the [data generator](https://github.com/dcos/demos/blob/master/flink/1.11/generator/generator.go) using the [flink-demo-generator.yaml](https://github.com/dcos/demos/blob/master/flink-k8s/1.11/generator/flink-demo-generator.yaml) deployment definition:
 
 ```bash
-$ kubectl apply -f https://raw.githubusercontent.com/dcos/demos/master/flink-k8s/1.11/generator/flink-demo-generator.yaml
+kubectl apply -f https://raw.githubusercontent.com/dcos/demos/master/flink-k8s/1.11/generator/flink-demo-generator.yaml
 ```
 
 We can check the status of the deployment:

@@ -9,3 +9,4 @@ clusters/setup/terraform.tfstate
 clusters/setup/complete-demo.yaml
 clusters/setup/cluster2-options.json
 clusters/setup/config
+clusters/setup/terraform.tfstate.backup

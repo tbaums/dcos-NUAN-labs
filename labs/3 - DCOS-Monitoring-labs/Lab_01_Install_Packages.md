@@ -12,9 +12,7 @@ Have Fun!
 ## Deploy a DC/OS Framework Service From the GUI
 In this section we are going to deploy the DC-OS monitoring service via the DC/OS web GUI.  DCOS-Monitoring is a great example of the community giving back.  It deploys Grafanna and Prometheus preconfigured to work together.  It also auto imports a selection of dashboards that to visualize the health of the DC/OS Cluster and Services running on DC/OS.
 
-1.  Navigate to the dashboard of the DC/OS GUI within a supported browser:
-
-`http://<Cluster-Master-IP-Address-or-Load-Balancer-Name>`
+1.  Navigate to your DC/OS GUI
 
 ![alt text](screenshots/DASHBOARD.png)
 

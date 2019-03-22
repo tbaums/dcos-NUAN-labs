@@ -26,6 +26,7 @@ module "dcos" {
   private_agents_instance_type = "c5.4xlarge"
   masters_instance_type = "m5.xlarge"
   dcos_version = "1.12.1"
+  dcos_resolvers      = "\n   - 169.254.169.253"
 
   # dcos_variant = "open"
   dcos_variant = "ee"
@@ -37,7 +38,7 @@ module "dcos" {
 
   dcos_superuser_username = "admin"
 
-  dcos_superuser_password_hash = "$6$rounds=656000$3/4kWPCJ3Cdk.Xas$5XANsC7vyLdGnPDe7euYJUhowoHDWA/0182ttTt8Lw3pZd4DzZgAz3R6v/.5oe9IJvOLl2bGFeM/g74qc9Vmz."
+  # dcos_superuser_password_hash = "$6$rounds=656000$jlw1TpTER3CnUdeM$DIV6NZNFcLFSlZ5JlxLGgPNKBEvKdPO/KUq5KsItn/mKGBWRzhsbJNQKwlHElSgHAJ.cOJZWmlOtC2TWJuBDI."
 }
 
 output "masters-ips" {
