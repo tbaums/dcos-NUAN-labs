@@ -1,0 +1,8 @@
+
+clusters/setup/license.txt
+clusters/setup/.terraform/*
+clusters/setup/cluster1-options.json
+clusters/setup/plan.out
+clusters/setup/private-key.pem
+clusters/setup/public-key.pem
+clusters/setup/terraform.tfstate

@@ -9,7 +9,7 @@ This Mesosphere DC/OS Lab Workshop will guide you through:
  - DC/OS Couchbase DB orchestration and operation on DC/OS
  
 
-Please see the [`/labs`](https://github.com/tbaums/dcos-nuan-labs/tree/master/labs) directory for course materials and [`/keys`](https://github.com/tbaums/dcos-nuan-labs/tree/master/labs https://github.com/tbaums/dcos-nuan-labs/tree/master/keys) for the keys required to access your cluster.
+Please see the [`/labs`](https://github.com/tbaums/dcos-nuan-labs/tree/master/labs) directory for course materials and [`/keys`](https://github.com/tbaums/dcos-nuan-labs/tree/master/labs) for the keys required to access your cluster.
 
 
 

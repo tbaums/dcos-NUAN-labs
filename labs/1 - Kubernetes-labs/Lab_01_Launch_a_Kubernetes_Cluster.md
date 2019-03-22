@@ -141,7 +141,7 @@ EOF
 Then run the DC/OS Kubernetes CLI command to launch the Kubernetes cluster.
 
 ```
-dcos kubernetes cluster create --options=cluster1-options.json --yes
+dcos kubernetes cluster create --package-version=2.2.0-1.13.3 --options=cluster1-options.json --yes
 ```
 
 ```
