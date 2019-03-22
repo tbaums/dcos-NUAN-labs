@@ -71,4 +71,4 @@ Point your browser to the URL below to check out your new Sock Shop site.
 
 
 
-[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/1%20-%20Kubernetes-labs/Lab_02b_Laurch_a_second_Kubernetes_cluster.md)
+[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/1%20-%20Kubernetes-labs/Lab_02b_Launch_a_second_Kubernetes_Cluster.md)
