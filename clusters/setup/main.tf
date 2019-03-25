@@ -18,7 +18,7 @@ module "dcos" {
   admin_ips           = ["0.0.0.0/0"]
 
   num_masters        = "1"
-  num_private_agents = "4"
+  num_private_agents = "6"
   num_public_agents  = "1"
 
   bootstrap_instance_type = "t2.medium"
