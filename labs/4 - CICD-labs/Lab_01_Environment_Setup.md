@@ -20,25 +20,11 @@ In order to complete these lab exercises, please ensure you have the following:
 
 ## Step 1 - Install Jenkins on DC/OS
 
-Within your DC/OS UI, select *Catalog* in the left navigation pane.
+We can install Jenkins with a single command on DC/OS:
 
-![jenkins-select-catalog](https://github.com/tbaums/dcos-k8s-days-labs/blob/master/labs/CICD-labs/screenshots/jenkins-select-catalog.png)
-
-Select Jenkins from the list of certified packages.
-
-![jenkins-select](https://github.com/tbaums/dcos-k8s-days-labs/blob/master/labs/CICD-labs/screenshots/jenkins-select.png)
-
-Select *Review & Run*.
-
-![jenkins-review-and-run](https://github.com/tbaums/dcos-k8s-days-labs/blob/master/labs/CICD-labs/screenshots/jenkins-review-and-run.png)
-
-You do not need to change the default configuration settings. Click *Review & Run* again.
-
-![jenkins-review-and-run2](https://github.com/tbaums/dcos-k8s-days-labs/blob/master/labs/CICD-labs/screenshots/jenkins-review-and-run2.png)
-
-Lastly, click *Run Service* to initiate your Jenkins deployment.
-
-![jenkins-run-service](https://github.com/tbaums/dcos-k8s-days-labs/blob/master/labs/CICD-labs/screenshots/jenkins-run-service.png)
+```
+dcos package install --yes jenkins --package-version=3.5.2-2.107.2
+```
 
 You can monitor the Jenkins launch process in your DC/OS Services tab.
 
