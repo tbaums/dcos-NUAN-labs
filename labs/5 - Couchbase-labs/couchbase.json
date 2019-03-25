@@ -1,0 +1,22 @@
+{
+    "service": {
+      "name": "couchbase"
+    },
+    "couchbase": {
+      "admin_credentials": {
+        "admin_password": "password"
+      }
+    },
+    "data-service": {
+      "count": 2,
+      "mem": 6144
+    },
+    "index-service": {
+      "count": 1,
+      "mem": 6144
+    },
+    "query-service": {
+      "count": 1,
+      "mem": 6144
+    }
+  }

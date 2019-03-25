@@ -4,13 +4,19 @@ In this exercise we will experience the simplicity of deploying a fully operatio
 
 ## Deploy Couchbase Service from CLI
 
-From your DC/OS CLI, install the DC/OS Couchbase package from the Catalog.  Firstl download [couchbase.json](couchbase.json)
+From your DC/OS CLI, install the DC/OS Couchbase package from the Catalog.  First, let's download download [couchbase.json](couchbase.json) with the following command:
+
+```
+curl -O https://raw.githubusercontent.com/tbaums/dcos-NUAN-labs/master/labs/5%20-%20Couchbase/couchbase.json
+```
+
+Now, it's time to install Couchbase via the CLI:
 
 ```
 dcos package install couchbase --options=couchbase.json --yes
 ```
 
-Monitor the deployment of Couchbase.
+We can monitor the deployment of Couchbase using the command below.
 
 ```
 watch dcos couchbase plan status deploy
@@ -37,11 +43,11 @@ deploy (serial strategy) (COMPLETE)
 └─ setup-sync-gateway-nodes (serial strategy) (COMPLETE)
 ```        
 
-Hit `<Ctrl-C>` to exit the watch command and return back to your prompt.
+When all steps read "COMPLETE", use `<Ctrl-C>` to exit the watch command and return back to your prompt.
 
 ## Interacting with Couchbase from a terminal
 
-First we will ssh to one of the data nodes.
+First, we will SSH to one of the data nodes with the command below.
 
 ```
 dcos task exec -ti data-0-node bash
@@ -53,7 +59,7 @@ You should see something like:
 root@ip-172-12-18-198:/mnt/mesos/sandbox#
 ```        
 
-Create a bucket in Couchbase.
+Now we need to create a bucket in Couchbase.
 
 ```
 couchbase-cli bucket-create --cluster localhost:8091 --user Administrator --password password --bucket students --bucket-type couchbase --bucket-ramsize 1024
@@ -116,5 +122,7 @@ You should see the result below.
 ```
 
 Hit `<Ctrl-D>` to exit cbq and return back to your prompt.
+
+Congratulations! You've just deployed, configured, and executed read/write commands against your very own Couchbase instance!
 
 [Back to Labs List >>](..)
