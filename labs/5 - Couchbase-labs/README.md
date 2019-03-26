@@ -1,10 +1,10 @@
-# Deploing Couchbase on DC/OS
+# Deploying Couchbase on DC/OS
 
 In this exercise we will experience the simplicity of deploying a fully operational Couchbase cluster with a single command.  We will then proceed to validate that the cluster is operational by running some [N1QL](https://www.couchbase.com/products/n1ql).
 
 ## Deploy Couchbase Service from CLI
 
-From your DC/OS CLI, install the DC/OS Couchbase package from the Catalog.  First, let's download download [couchbase.json](couchbase.json) with the following command:
+From your DC/OS CLI, install the DC/OS Couchbase package from the Catalog.  First, let's download [couchbase.json](couchbase.json) with the following command:
 
 ```
 curl -O https://raw.githubusercontent.com/tbaums/dcos-NUAN-labs/master/labs/5%20-%20Couchbase/couchbase.json
