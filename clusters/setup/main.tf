@@ -13,7 +13,7 @@ module "dcos" {
   subnet_range = "172.16.0.0/16"
 
   dcos_instance_os    = "centos_7.5"
-  cluster_name        = "nuan-workshop"
+  cluster_name        = "nuan-workshop-07"
   ssh_public_key_file = "workshop.id_rsa.pub"
   admin_ips           = ["0.0.0.0/0"]
 
@@ -21,6 +21,7 @@ module "dcos" {
   num_private_agents = "6"
   num_public_agents  = "1"
 
+  availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
   bootstrap_instance_type = "t2.medium"
   public_agents_instance_type = "m5.xlarge"
   private_agents_instance_type = "c5.4xlarge"

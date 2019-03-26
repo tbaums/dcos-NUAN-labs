@@ -9,7 +9,7 @@ From your forked `cd-demo` repository homepage, navigate to the `conf` directory
 ![github-conf](https://github.com/tbaums/dcos-k8s-days-labs/blob/master/labs/CICD-labs/screenshots/github-conf.png)
 
 
-Within the `conf` directory, select `cd-demo-app.json`. This file contains all the necessary specifications for Marathon to deploy your app and expose it publicly via Marathon-LB (installed in Lab 1).
+Within the `conf` directory, select `cd-demo-app.json`. This file contains all the necessary specifications for Marathon to deploy your app in your DC/OS cluster.
 
 ![github-conf2](https://github.com/tbaums/dcos-k8s-days-labs/blob/master/labs/CICD-labs/screenshots/github-conf2.png)
 
