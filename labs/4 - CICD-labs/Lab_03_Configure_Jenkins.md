@@ -79,7 +79,10 @@ Add in the following information:
 - Registry credentials: Select the DockerHub credentials you created in Step 2 above.
 
 
-![jenkins-docker-credentials](https://github.com/tbaums/dcos-k8s-days-labs/blob/master/labs/CICD-labs/screenshots/jenkins-docker-credentials.png)
+![jenkins-docker-credentials](https://github.com/tbaums/dcos-NUAN-labs/blob/master/screenshots/docker-build-and-publish-drop-down.png)
+
+![jenkins-docker-credentials](https://github.com/tbaums/dcos-NUAN-labs/blob/master/screenshots/docker-build-and-publish.png)
+
 
 Scroll down the page once more to the **Post-build Actions** section, and select *Add post-build action*.
 
