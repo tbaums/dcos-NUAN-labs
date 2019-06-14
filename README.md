@@ -22,5 +22,6 @@ Please see the [`/labs`](https://github.com/tbaums/dcos-nuan-labs/tree/master/la
 - Elastic CI/CD Labs: Dan Mennell, Mesosphere
 - Couchbase Labs: Alex Fernandes, Mesosphere
 - Upgrading Labs to DC/OS 1.12 and Kubernetes 1.12.1: Greg Palmer, Mesosphere
+- Upgrading Labs to DC/OS 1.13 and Kubernetes 1.14: Michael Tanenbaum, Chris Lucca, Dan Mennell, Mesosphere
 
 
