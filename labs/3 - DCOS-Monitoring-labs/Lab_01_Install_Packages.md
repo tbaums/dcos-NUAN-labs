@@ -60,10 +60,8 @@ Once the board is green, we can assume that the service is fully deployed as all
 
 ![alt text](screenshots/COMPLETE.png)
 
-As the DC/OS Monitoring service takes advantage of the DC/OS Admin Router, we can go directly to the respective dashboards for Prometheus and Grafana by accessing the below URL's.
+As the DC/OS Monitoring service takes advantage of the DC/OS Admin Router, we can go directly to the respective dashboards for Prometheus and Grafana by clicking the popout icon 
 
-`https://<CLUSTER_URL>/service/dcos-monitoring/grafana/`
-
-`https://<CLUSTER_URL>/service/dcos-monitoring/prometheus`
+![alt text](https://github.com/tbaums/dcos-NUAN-labs/blob/master/screenshots/monitoring-popout.png)
 
 [Back to Labs List >>](https://github.com/tbaums/dcos-NUAN-labs/tree/master/labs)
