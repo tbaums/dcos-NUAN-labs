@@ -127,7 +127,10 @@ cat > cluster1-options.json << EOF
   "kubernetes": {
     "public_node_count": 1,
     "private_node_count": 1,
-    "high_availability": true
+    "high_availability": true,
+    "metrics_exporter": {
+      "enabled": true
+      }
   }
 }
 EOF
@@ -136,7 +139,7 @@ EOF
 Then run the DC/OS Kubernetes CLI command to launch the Kubernetes cluster.
 
 ```
-dcos kubernetes cluster create --package-version=2.2.0-1.13.3 --options=cluster1-options.json --yes
+dcos kubernetes cluster create --package-version=2.3.1-1.14.2 --options=cluster1-options.json --yes
 ```
 
 ```
