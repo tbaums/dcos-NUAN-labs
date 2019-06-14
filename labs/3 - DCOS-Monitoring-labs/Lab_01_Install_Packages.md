@@ -24,7 +24,7 @@ You will be presented with a catalog of frameworks that can easily be deployed t
 
 Feel free to scroll through the screen to see all the different services that are avialable to deploy from the catalog.  Scroll to the top of the page and type "mon" into the "Search Box".  This will filter the visible Frameworks accordingly.  
 
-3.  Find "beta-dcos-monitoring" and click it.
+3.  Find "dcos-monitoring" and click it.
 
 ![alt text](screenshots/MONITORING.png)
 
