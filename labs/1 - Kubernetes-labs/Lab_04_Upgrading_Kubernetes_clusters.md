@@ -11,12 +11,12 @@ dcos kubernetes manager update package-versions
 ## Upgrade Kubernetes cluster
 Run the following command to upgrade your Kubernetes cluster:
 ```
-dcos kubernetes cluster update --cluster-name=kubernetes-cluster1 --package-version=2.3.2-1.14.1
+dcos kubernetes cluster update --cluster-name=kubernetes-cluster1 --package-version=2.3.3-1.14.3
 ```
 You will be prompted to confirm the upgrade.
 
 ```
-dcos kubernetes cluster update --cluster-name=kubernetes-cluster1 --package-version=2.3.2-1.14.1            
+dcos kubernetes cluster update --cluster-name=kubernetes-cluster1 --package-version=2.3.3-1.14.3            
 
 
 Using Kubernetes cluster: kubernetes-cluster1
