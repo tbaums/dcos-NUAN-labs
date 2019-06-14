@@ -40,7 +40,7 @@ kubectl get pods
 We can also view the log output to make we are detecting fraud as expected (you will need to use the actual pod id from the previous command):
 
 ```bash
-kubectl logs flink-demo-actor--655890656-8d1ls
+kubectl logs flink-demo-actor-<your pod ID>
 
 Detected Fraud:   TransactionAggregate {startTimestamp=0, endTimestamp=1520473325000, totalAmount=23597:
 Transaction{timestamp=1520473023000, origin=3, target='7', amount=5857}
