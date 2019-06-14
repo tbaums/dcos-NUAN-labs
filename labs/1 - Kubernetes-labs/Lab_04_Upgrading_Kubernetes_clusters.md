@@ -1,4 +1,4 @@
-## Lab 4 - Upgrading Your Kuberenetes Cluster (
+## Lab 4 - Upgrading Your Kuberenetes Cluster
 
 Kubernetes is evolving rapidly, with monthly releases of minor versions. More importantly, we want to be able to stay ahead of CVEs. An automated, reliable upgrade and patching process is therefore required. DC/OS orchestrates the entire rolling upgrade of your Kubernetes cluster, including marking Kubelets unschedulable, draining the Kubelet, and safely bringing the Kubelet back into the cluster. 
 
