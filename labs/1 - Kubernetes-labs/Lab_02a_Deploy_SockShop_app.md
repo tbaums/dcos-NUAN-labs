@@ -65,7 +65,7 @@ service/user created
 Point your browser to the URL below to check out your new Sock Shop site.
 
 ```
-<your public agent public IP>:30001
+http://<your public agent public IP>:30001
 ```
 
 
