@@ -35,4 +35,4 @@ kube-node-1-kubelet.kubernetes-cluster1.mesos             Ready     <none>    7m
 kube-node-public-0-kubelet.kubernetes-cluster1.mesos      Ready     <none>    107m      v1.13.3
 ```
 
-[Back to Labs List >>](https://github.com/tbaums/dcos-NUAN-labs/tree/master/labs)
+[Next Lab >>](https://github.com/tbaums/dcos-NUAN-labs/blob/master/labs/1%20-%20Kubernetes-labs/Lab_04_Scaling_Kubernetes_clusters.md)
