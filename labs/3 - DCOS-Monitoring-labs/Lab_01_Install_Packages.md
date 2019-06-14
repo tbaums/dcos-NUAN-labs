@@ -22,37 +22,33 @@ You will be presented with a catalog of frameworks that can easily be deployed t
 
 ![alt text](screenshots/CATALOG.png)
 
-Feel free to scroll through the screen to see all the different services that are avialable to deploy from the catalog.  Scroll to the top of the page and type "mon" into the "Search Box".  This will filter the visible Frameworks accordingly.  
+Feel free to scroll through the screen to see all the different services that are avialable to deploy from the catalog.  Scroll to the top of the page and type "dcos-monitoring" into the "Search Box".  This will filter the visible Frameworks accordingly.  
 
 3.  Find "dcos-monitoring" and click it.
 
-![alt text](screenshots/MONITORING.png)
+![alt text](https://github.com/tbaums/dcos-NUAN-labs/blob/master/screenshots/search-dcos-monitoring.png)
 
-You will be presented with the initial configuration screen for the "beta-dcos-monitoring" Service.  Here you can select the version of the service you would like to deploy.  
+You will be presented with the initial configuration screen for the "dcos-monitoring" Service.  Here you can select the version of the service you would like to deploy.  
 
-4. From the pull-down menu, select v0.4.3-beta
-
-![alt text](screenshots/VERSION.png)
-
-5. Click "Review and Run" This will expose the "Edit Configuration" screen.
+4. Click "Review and Run" This will expose the "Edit Configuration" screen.
 
 ![alt text](screenshots/EDIT-CONFIG.png)
 
 By clicking the links on the left, you expose advanced configuration and resource allocation options for the different monitoring components: Prometheus, Grafanna, and Alert Manager.  For this exercise we are going to use the default entries.  Click the "JSON editer" slider to see how the JSON entries map to the entries in the gui.
 
-6.  Click "Review and Run"
+5.  Click "Review and Run"
 
 ![alt text](screenshots/FINAL.png)
 
 Here you can give your configuration one final review before deploying the service.  You can also click "Download Config" to download a copy of the JSON for manual modification, or inclusion in as CI/CD Pipeline.
 
-7. Click "Run Service"
+6. Click "Run Service"
 
 If everything needed to deploy the service is there, you are presented with the "Success" call-out box.
 
 ![alt text](screenshots/SUCCESS.png)
 
-8. Click "Open Service"
+7. Click "Open Service"
 
 This will begin the deployment of the dcos-monitoring service and take you to the service detail screen.  From here you can watch the progress of the dcos-monitoring service.
 
