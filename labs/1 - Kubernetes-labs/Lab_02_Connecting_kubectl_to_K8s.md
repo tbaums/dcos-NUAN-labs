@@ -6,7 +6,9 @@ Your instructors have pre-installed the DC/OS Edge Load Balancer on your cluster
 
 To attach `kubectl` to your cluster, you must point the configuration command below to the public IP address of the public DC/OS agent where Edge-LB is running. 
 
-Your DC/OS cluster contains 1 public agent nodes. To determine where Edge-LB is running, open your `clusterinfo.txt` file and note the IP addresses of your public agent.
+Your DC/OS cluster contains 1 public agent node. To determine the public IP address of the node where Edge-LB is running, visit the *Nodes* tab in your DC/OS GUI.
+
+![find-public-node](https://github.com/tbaums/dcos-NUAN-labs/blob/master/screenshots/lab02-find_public_node.png)
 
 Next, attempt to visit the following URL for your public agents:
 

@@ -14,7 +14,7 @@ curl -O https://raw.githubusercontent.com/microservices-demo/microservices-demo/
 
 ### Step 2. Create Namespace for Sock Shop
 
-Kubernetes provides isolation via the ["Namespaces" type](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/), which function as virtual Kubernetes clusters, backed by the same physical Kubernetes cluster. The YAML we downloaded in Step 1 expects a namespace called `sock-shop`. Let's create that namespace by running the command below:
+Kubernetes provides limited isolation via the ["Namespaces" type](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/), which function as virtual Kubernetes clusters, backed by the same physical Kubernetes cluster. The YAML we downloaded in Step 1 expects a namespace called `sock-shop`. Let's create that namespace by running the command below:
 
 ```
 kubectl create namespace sock-shop
@@ -65,7 +65,7 @@ service/user created
 Point your browser to the URL below to check out your new Sock Shop site.
 
 ```
-<your public agent public IP>:30001
+http://<your public agent public IP>:30001
 ```
 
 
