@@ -49,7 +49,7 @@ For CoreOS use the following commands to install the CLI binary:
 
 ```
 sudo mkdir -p /opt/bin && 
-curl https://downloads.dcos.io/binaries/cli/linux/x86-64/dcos-1.12/dcos -o dcos && 
+curl https://downloads.dcos.io/binaries/cli/linux/x86-64/dcos-1.13/dcos -o dcos && 
 chmod +x dcos &&
 sudo mv dcos /opt/bin
 dcos cluster setup https://34.201.164.41
@@ -92,13 +92,8 @@ You're now ready to launch your first Kubernetes cluster!
 
 Now that the Kubernetes control plan manager is running, you can use it to launch a Kubernetes cluster.  Since you are using the Enterprise version of DC/OS, you can use the DC/OS certificate authoritity to create an SSL key to be used with a DC/OS service account user.
 
-First, you must install the DC/OS Enterprise CLI, which gives you access to DC/OS Enterprise security features, among other useful tools.
 
-```
-dcos package install dcos-enterprise-cli --yes
-```
-
-Next, run the following commands to create the SSL keys, the service account and the secret.
+Run the following commands to create the SSL keys, the service account and the secret.
 
 ```
 dcos security org service-accounts keypair private-key.pem public-key.pem
